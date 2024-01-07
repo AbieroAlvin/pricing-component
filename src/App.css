@@ -1,0 +1,53 @@
+.custom-slider {
+  position: relative;
+  width: 100%;
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 13px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  margin: 0;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #3490dc;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  z-index: -1;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: linear-gradient(
+    to right,
+    #4caf50 0%,
+    #4caf50 calc(50% - 10px),
+    #d3d3d3 calc(50% - 10px),
+    #d3d3d3 100%
+  );
+  border-radius: 5px;
+  border: none;
+}
+
+.custom-slider-head {
+  position: absolute;
+  top: -5px;
+  transform: translateX(-50%);
+}
+
+.price-info {
+  margin-top: 10px;
+  text-align: center;
+}
