@@ -1,5 +1,6 @@
 import Container from "./components/Container";
 import Heading from "./components/Heading";
+// import PricingSlider from "./components/PricingSlider";
 
 function App() {
   return (

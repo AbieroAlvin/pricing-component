@@ -22,7 +22,7 @@ const ToggleSwitch = ({ onToggle }) => {
           />
           <div
             className={`toggle__line w-11 h-5 bg-${
-              isMonthly ? "Toggle" : "blue-500"
+              isMonthly ? "Toggle" : "StrongCyan"
             } hover:bg-StrongCyan rounded-full shadow-inner transition-background-color relative flex items-center px-1`}
           >
             <div
